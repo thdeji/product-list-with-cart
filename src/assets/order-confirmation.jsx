@@ -11,7 +11,7 @@ function OrderConfirmation({ cart, orderTotal }) {
       <div className=" max-h-full bg-black/50 fixed inset-0 lg:flex lg:items-center lg:justify-center md:flex md:items-center md:justify-center z-50">
         <div className="bg-Rose100 flex flex-col gap-10 p-10 w-full md:w-auto rounded-2xl max-h-[80vh] overflow-y-auto fixed bottom-0 md:static md:my-auto">
           <img
-            src="./src/assets/images/icon-order-confirmed.svg"
+            src="./images/icon-order-confirmed.svg"
             alt=""
             srcset=""
             className="w-20"
