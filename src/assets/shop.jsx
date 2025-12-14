@@ -230,7 +230,7 @@ function Shop() {
                     </div>
                     <img
                       src={removeIcon}
-                      className="cursor-pointer border px-0.5 py-0.5 border-Rose300 rounded-2xl"
+                      className="cursor-pointer "
                       onClick={() => removeItem(item.id)}
                     />
                   </div>
@@ -244,7 +244,7 @@ function Shop() {
                 </p>
               </div>
 
-              <div className="bg-Rose100 rounded p-4 flex justify-center gap-4 mx-4 font-redHatRegular text-Rose900 whitespace-nowrap">
+              <div className="bg-Rose100 rounded p-4 flex justify-center gap-4 font-redHatRegular text-Rose900 whitespace-nowrap">
                 <img src={carbonIcon} />
                 <p>
                   This is a{" "}
